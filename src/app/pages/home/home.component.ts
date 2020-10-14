@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Video } from 'src/app/models/youtube.models';
+import { video } from 'src/app/models/youtube.models';
 import { YoutubeService } from '../../services/youtube.service';
 import Swal from 'sweetalert2'
 
