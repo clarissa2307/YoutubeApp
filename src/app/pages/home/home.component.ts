@@ -10,7 +10,7 @@ import Swal from 'sweetalert2'
 })
 export class HomeComponent implements OnInit {
 
-  videos: Video[] = [];
+  videos: video[] = [];
 
   constructor(private youtubeService: YoutubeService) { }
 
