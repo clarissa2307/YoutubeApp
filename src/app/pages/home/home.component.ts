@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  mostrarVideo( video: Video ) {
+  mostrarVideo( video: video ) {
 
     Swal.fire({
       html: `
